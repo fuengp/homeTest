@@ -4,3 +4,6 @@ public void test(){
 boolean insert(Model model){
 	return this.modelDao.insert(model);
 }
+Model findById(String mid){
+	return this.modelDao.findById(mid) ;
+}
