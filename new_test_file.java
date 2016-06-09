@@ -7,3 +7,5 @@ boolean insert(Model model){
 Model findById(String mid){
 	return this.modelDao.findById(mid) ;
 }
+
+笨蛋！！！
